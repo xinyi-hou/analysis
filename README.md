@@ -74,7 +74,4 @@ openai-dev-forum-analysis
 ├── step3_rq1_data.py
 ├── step3_rq1_post.py
 └── step5_rq2_sample.py
-=======
-# openai-dev-forum-analysis
-Voices from the Frontier: A Comprehensive Analysis of the OpenAI Developer Forum
->>>>>>> 44ec4978fad2830ef6669db69a94e7db55f0c37d
+
