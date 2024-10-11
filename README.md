@@ -97,7 +97,7 @@ To set up the project environment and install the required dependencies, follow 
 
 1. Clone the project repository:
    ```
-   git clone https://github.com/your-username/openai-dev-forum-analysis.git
+   git clone https://xxx/openai-dev-forum-analysis.git
    ```
 
 2. Navigate to the project directory:
