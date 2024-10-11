@@ -8,7 +8,7 @@ The OpenAI Developer Forum is a hub for developers to discuss their experiences,
 - **Objective:** Analyze activity trends on the forum.
 - **Focus:** Identify popular topics and user engagement trends.
 
-### RQ2: Taxonomy of Concerns
+### RQ2: Taxonomy of Concerns 
 - **Objective:** Classify specific developer concerns.
 - **Focus:** Understand common obstacles and issues in the developer community.
 
@@ -22,7 +22,7 @@ Collected 29,576 topics from 17 categories using a custom web crawler to gather 
 Extracted complete post information for each topic, including attributes like `post_id`, `username`, `content`, and `engagement metrics`.
 
 ### Step 3: Identify Popularity Trends
-Conducted time series analysis to investigate the growth and decline of interest in specific topics and examined factors affecting engagement.
+Conducted time series analysis to investigate the growth and decline of interest in specific topics and examined factors affecting engagement. 
 
 ### Step 4: Filter Developers' Concern Topics
 Filtered 9,301 active topics from 2024 across `API`, `ChatGPT`, `GPT builders`, and `Prompting` categories for detailed analysis.
@@ -32,10 +32,10 @@ Developed a taxonomy of concerns based on forum categories, using a sample of 88
 
 ## Contributions
 1. **Data Collection and Analysis:**
-   - Collected 29,576 topics for analysis.
+   - Collected 29,576 topics for analysis. 
    - Provided insights into popularity trends and user engagement.
 
-2. **Taxonomy Development:**
+2. **Taxonomy Development:** 
    - Filtered and analyzed 9,301 topics related to developer concerns.
    - Constructed a comprehensive taxonomy from 717 relevant topics.
 
@@ -44,6 +44,8 @@ Developed a taxonomy of concerns based on forum categories, using a sample of 88
    - Offered insights to guide future research, tool development, and best practices in AI-assisted software engineering.
 
 ## Project Directory Structure
+
+The project directory structure follows the five steps outlined in the Methodology section:
 
 ```plaintext
 openai-dev-forum-analysis
@@ -70,8 +72,48 @@ openai-dev-forum-analysis
 ├── step1_topic_3.py
 ├── step2_post_1.py
 ├── step2_post_2.py
-├── step2_post_3.py
+├── step2_post_3.py  
 ├── step3_rq1_data.py
 ├── step3_rq1_post.py
 └── step5_rq2_sample.py
+```
 
+Each step's functionality is explained in the corresponding part of the Methodology section in this `README.md`.
+
+## Dependencies
+
+This project relies on the following Python packages:
+
+- `requests`
+- `beautifulsoup4`
+- `pandas`
+- `openpyxl`
+
+To ensure consistent library versions across environments and prevent compatibility issues, we have included a `requirements.txt` file listing these dependencies. 
+
+## Installation
+
+To set up the project environment and install the required dependencies, follow these steps:
+
+1. Clone the project repository:
+   ```
+   git clone https://github.com/your-username/openai-dev-forum-analysis.git
+   ```
+
+2. Navigate to the project directory:
+   ```
+   cd openai-dev-forum-analysis
+   ```
+
+3. Create and activate a virtual environment (optional but recommended):
+   ```
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+4. Install the project dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
+
+After completing these steps, you will have the necessary environment set up to run the analysis scripts and reproduce the results presented in this study.
