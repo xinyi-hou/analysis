@@ -44,7 +44,7 @@ Developed a taxonomy of concerns based on forum categories, using a sample of 88
    - Offered insights to guide future research, tool development, and best practices in AI-assisted software engineering.
 
 ## Data sample
-A detailed data example as follows:
+The 33 attributes of a topic and data examples are shown below:
 ```json
     {
         "id": 865677,
