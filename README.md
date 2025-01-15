@@ -43,6 +43,57 @@ Developed a taxonomy of concerns based on forum categories, using a sample of 88
    - Conducted the first large-scale analysis of the OpenAI Developer Forum.
    - Offered insights to guide future research, tool development, and best practices in AI-assisted software engineering.
 
+## Data sample
+A detailed data example as follows:
+```json
+    {
+        "id": 865677,
+        "title": "Assistant API Response Issue",
+        "fancy_title": "Assistant API Response Issue",
+        "slug": "assistant-api-response-issue",
+        "posts_count": 1,
+        "reply_count": 0,
+        "highest_post_number": 1,
+        "image_url": "https://global.discourse-cdn.com/openai1/original/4X/e/9/b/e9b01385c53d1ef141332dbad4718f3452fadde7.png",
+        "created_at": "2024-07-14T09:03:19.514Z",
+        "last_posted_at": "2024-07-14T09:03:19.612Z",
+        "bumped": true,
+        "bumped_at": "2024-07-14T09:03:19.612Z",
+        "archetype": "regular",
+        "unseen": false,
+        "pinned": false,
+        "unpinned": null,
+        "visible": true,
+        "closed": false,
+        "archived": false,
+        "bookmarked": null,
+        "liked": null,
+        "tags": [
+            "chatgpt",
+            "gpt-4",
+            "assistants-api"
+        ],
+        "tags_descriptions": {},
+        "views": 75,
+        "like_count": 0,
+        "has_summary": false,
+        "last_poster_username": "z.mahmud",
+        "category_id": 7,
+        "pinned_globally": false,
+        "featured_link": null,
+        "has_accepted_answer": false,
+        "can_vote": false,
+        "posters": [
+            {
+                "extras": "latest single",
+                "description": "Original Poster, Most Recent Poster",
+                "user_id": 522851,
+                "primary_group_id": null,
+                "flair_group_id": null
+            }
+        ]
+    }
+```
 ## Project Directory Structure
 
 The project directory structure follows the five steps outlined in the Methodology section:
