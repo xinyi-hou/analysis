@@ -189,7 +189,7 @@ openai-dev-forum-analysis
 ├── step3_rq1_post.py
 └── step5_rq2_sample.py
 ```
-*The size of step2_post exceeds 20G, and a large number of posts contain sensitive information, which violates the upload rules of the repository. Therefore, the complete post data is not uploaded in this project.*
+*The size of step2_post exceeds 50G, and a large number of posts contain sensitive information, which violates the upload rules of the repository. Therefore, the complete post data is not uploaded in this project.*
 
 
 ## Dependencies
