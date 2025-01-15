@@ -44,7 +44,7 @@ Developed a taxonomy of concerns based on forum categories, using a sample of 88
    - Offered insights to guide future research, tool development, and best practices in AI-assisted software engineering.
 
 ## Data sample
-The 33 attributes of a topic and data examples are shown below:
+The 33 attributes of a topic (id:865677) and data examples are shown below:
 ```json
     {
         "id": 865677,
@@ -93,6 +93,67 @@ The 33 attributes of a topic and data examples are shown below:
             }
         ]
     }
+```
+All posts of topic (id:865677), and 52 attributes.
+```json
+{
+    "posts": [
+        {
+            "id": 1165161,
+            "name": "Zahir Mahmud",
+            "username": "z.mahmud",
+            "avatar_template": "/user_avatar/community.openai.com/z.mahmud/{size}/291413_2.png",
+            "created_at": "2024-07-14T09:03:19.612Z",
+            "cooked": "<p>I am using Assistant streaming  API with gpt-4-turbo. My input token is almost 16K and after generating 3K tokens for output it stops generating output. Can someone tell where the issue is?</p>\n<p><div class=\"lightbox-wrapper\"><a class=\"lightbox\" href=\"https://global.discourse-cdn.com/openai1/original/4X/e/9/b/e9b01385c53d1ef141332dbad4718f3452fadde7.png\" data-download-href=\"/uploads/short-url/xliuwfKgNBVZMEHSH6OSbS841v1.png?dl=1\" title=\"image\" rel=\"noopener nofollow ugc\"><img src=\"https://global.discourse-cdn.com/openai1/original/4X/e/9/b/e9b01385c53d1ef141332dbad4718f3452fadde7.png\" alt=\"image\" data-base62-sha1=\"xliuwfKgNBVZMEHSH6OSbS841v1\" width=\"690\" height=\"272\" data-dominant-color=\"28272A\"><div class=\"meta\"><svg class=\"fa d-icon d-icon-far-image svg-icon\" aria-hidden=\"true\"><use href=\"#far-image\"></use></svg><span class=\"filename\">image</span><span class=\"informations\">829×327 12.9 KB</span><svg class=\"fa d-icon d-icon-discourse-expand svg-icon\" aria-hidden=\"true\"><use href=\"#discourse-expand\"></use></svg></div></a></div></p>",
+            "post_number": 1,
+            "post_type": 1,
+            "updated_at": "2024-07-14T09:03:19.612Z",
+            "reply_count": 0,
+            "reply_to_post_number": null,
+            "quote_count": 0,
+            "incoming_link_count": 4,
+            "reads": 14,
+            "readers_count": 13,
+            "score": 22.8,
+            "yours": false,
+            "topic_id": 865677,
+            "topic_slug": "assistant-api-response-issue",
+            "display_username": "Zahir Mahmud",
+            "primary_group_name": null,
+            "flair_name": null,
+            "flair_url": null,
+            "flair_bg_color": null,
+            "flair_color": null,
+            "flair_group_id": null,
+            "version": 1,
+            "can_edit": false,
+            "can_delete": false,
+            "can_recover": false,
+            "can_see_hidden_post": false,
+            "can_wiki": false,
+            "read": true,
+            "user_title": null,
+            "bookmarked": false,
+            "actions_summary": [],
+            "moderator": false,
+            "admin": false,
+            "staff": false,
+            "user_id": 522851,
+            "hidden": false,
+            "trust_level": 1,
+            "deleted_at": null,
+            "user_deleted": false,
+            "edit_reason": null,
+            "can_view_edit_history": true,
+            "wiki": false,
+            "can_accept_answer": false,
+            "can_unaccept_answer": false,
+            "accepted_answer": false,
+            "topic_accepted_answer": false,
+            "can_vote": false
+        }
+    ]
+}
 ```
 ## Project Directory Structure
 
