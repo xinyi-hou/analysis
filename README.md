@@ -158,7 +158,7 @@ All posts of topic (id:865677), and 52 attributes.
 ## Project Directory Structure
 
 The project directory structure follows the five steps outlined in the Methodology section:
-PS: The size of step2_post exceeds 20G, and a large number of posts contain sensitive information, which violates the upload rules of the repository. Therefore, the complete post data is not uploaded in this project.
+
 ```plaintext
 openai-dev-forum-analysis
 ├── step1_topic/
@@ -189,8 +189,8 @@ openai-dev-forum-analysis
 ├── step3_rq1_post.py
 └── step5_rq2_sample.py
 ```
+*The size of step2_post exceeds 20G, and a large number of posts contain sensitive information, which violates the upload rules of the repository. Therefore, the complete post data is not uploaded in this project.*
 
-Each step's functionality is explained in the corresponding part of the Methodology section in this `README.md`.
 
 ## Dependencies
 
